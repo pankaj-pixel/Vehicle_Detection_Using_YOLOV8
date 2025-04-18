@@ -1,0 +1,15 @@
+modes:
+    train,val,preduct
+
+Tasks:
+    - detect ,segment,classify
+
+DATA:
+     Format can differ fro tax type.supp
+
+
+DETECTION: Commond using cli
+    - yolo task=detect mode=predict model=yolov8n.pt source="E:\IDTECH-PROJECTS\VehicleDetection\Images\truck.jpg"
+
+SEGMENT: Commond cli
+    - yolo task=segment model=
